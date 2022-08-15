@@ -6,17 +6,15 @@
 body {
   height: 100vh;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.8);
 }
 .main {
   height: max-content;
   width: 80%;
-  background-color: white;
-  margin: 10rem auto;
+  margin: 13rem;
 }
 .don {
   display: flex;
-  gap: 10rem;
+  gap: 2rem;
   padding-left: 6rem;
   padding-top: 3rem;
   font-size: 14px;
@@ -28,40 +26,55 @@ body {
 }
 .hi {
   margin-top: 3rem;
-  font-size: 13px;
-  margin-left: 30rem;
+  font-size: 15px;
+  margin-left: 20rem;
 }
 .i {
   padding-top: 0.5rem;
-  margin-left: 26rem;
+  margin-left: 14rem;
   margin-right: 26rem;
   margin-bottom: 5rem;
+  font-size: 20px;
 }
 .avatar {
   display: flex;
   padding-left: 6rem;
 }
 .pexels {
-  height: 12rem;
+  height: 10rem;
   width: 11rem;
   margin-top: 2rem;
 }
+.a {
+  margin-bottom: 1rem;
+}
 .word {
-  margin-left: 5rem;
+  margin-left: 4rem;
   margin-right: 27rem;
   padding-top: 2rem;
+  font-weight: 600;
 }
 .techs {
   margin-left: 6rem;
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
 }
 .tec {
   padding-top: 2rem;
   padding-bottom: 1rem;
+  font-size: 12px;
+}
+.js {
+  margin-right: 38rem;
+  font-size: 15px;
 }
 .equi {
   padding-top: 2rem;
   padding-bottom: 1rem;
+  font-size: 12px;
+}
+.ty {
+  margin-right: 38rem;
+  font-size: 15px;
 }
 .gyp-words {
   display: flex;
@@ -70,40 +83,54 @@ body {
 }
 .sel {
   margin-left: 25rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+  font-size: 13px;
+}
+.h5 {
+  font-size: 15px;
 }
 .mon {
   padding-top: 1rem;
+  font-size: 12px;
   color: rgba(0, 0, 0, 0.7);
 }
 .lorem {
-  margin-right: 12rem;
+  margin-right: 18rem;
+  padding-right: 8rem;
   padding-left: 3rem;
   color: gray;
+  font-size: 12px;
 }
 .img {
   margin-left: 6rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  width: 46rem;
+  width: 38rem;
 }
 .foot {
-  margin-left: 25rem;
+  margin-left: 19rem;
   margin-top: 4rem;
   margin-bottom: 1rem;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 800;
 }
 .shapes {
   display: flex;
-  gap: 2rem;
-  margin-left: 20rem;
+  gap: 1rem;
+  margin-left: 19.5rem;
   margin-right: 18rem;
   margin-top: 1rem;
-  font-size: 14px;
+  font-size: 10px;
   padding-bottom: 3rem;
+  font-weight: 400;
 }
 .png2 {
   width: 9px;
   height: 9px;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
 }
